@@ -27,8 +27,11 @@ a{
 
 #page-home{
     height: 100vh;
-    background: url('../assets/home-background.svg') no-repeat;
-    background-position: 35vw top;
+    background: url('../assets/home-background.svg');
+    background-repeat: no-repeat;
+    /* background-position: 35vw bottom; */
+    background-position: right 100px;
+    background-size: contain
     
 
 }
@@ -54,7 +57,7 @@ a{
 #page-home header a{
     display: flex;
     color: var(--title-color);
-    font-weight: 700S;
+    font-weight: 700;
 }
 
 
