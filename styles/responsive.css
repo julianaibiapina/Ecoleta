@@ -1,0 +1,35 @@
+@media(max-width:900px){
+    #page-home{
+        background-position:70vw ;
+    }
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a{
+        position: absolute;
+        bottom: 35px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-home main{
+        align-items: center;
+    }
+}
+
+/* para telas com 1700px ou mais */
+@media(min-width:1700px){
+    #page-home{
+        background-position:40vw ;
+    }
+}
+
+/* para dispositivos com mais de 760px de altura */
+@media(max-height:760px){
+    #page-home{
+        background-position-y: 165px;
+    }
+}
