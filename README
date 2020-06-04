@@ -32,3 +32,11 @@ estiver radando mesmo o processo é diferente:
         "scripts": {
             "start": "nodemon src/server.js"
         }
+
+
+-- TEMPLATE ENGINE: para tornar páginas html, que são estáticas, dinâmicas
+1. Instala NunJucks
+    npm install nunjucks
+    depois disso é ir no server.js e usar o template engine
+
+2. Instalar plugin para dar cores bonitinhas no nunjucks dentro do VSCode >.<
