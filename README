@@ -1,0 +1,15 @@
+configuração do back end
+
+1. Intalar node.js (caso não tenha)
+2. Git bash (caso não tenha)
+
+3. Abrir o terminal do VSCode e configurá-lo para o git bash
+4. Organizar a estrutura de pastas entre 
+    - public (arquivos que ficarão públicos)
+    - src (é a parte do servidor) 
+    - em src criar uma parte com os arquivos visuais
+    - criar o arquivo .js do servidor nas pasta src
+5. No git bash: "npm init -y" para iniciar o projeto em node 
+
+5. Instalar os pacotes para a criação do servidor
+    - npm install express (fechar os arquivos antes para não dar bug)
