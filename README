@@ -1,4 +1,4 @@
-configuração do back end
+--CONFIGURAÇÃO DE SERVIDOR
 
 1. Intalar node.js (caso não tenha)
 2. Git bash (caso não tenha)
@@ -11,5 +11,24 @@ configuração do back end
     - criar o arquivo .js do servidor nas pasta src
 5. No git bash: "npm init -y" para iniciar o projeto em node 
 
-5. Instalar os pacotes para a criação do servidor
+6. Instalar os pacotes para a criação do servidor
     - npm install express (fechar os arquivos antes para não dar bug)
+
+7. Após a escrita do arquivo server.js:
+    - abrir o arquivo package.json
+    - em scripts mudar o campo "test" para "start"
+    - e mudar também o caminho que vem em seguida para o comando de execução do nosso servidor, vai ficar assim:
+        "scripts": {
+            "start": "node src/server.js"
+        }
+
+    - após essas configurações é possível executar o servidor colocando o seguinte comando no gitbash:
+        npm start
+
+8. Instalação de pacote para reiniciar servidor enquanto estamos desenvolvendo, esse pacote reinicia o servidor
+sempre que alterarmos alguma coisa, isso só serve para o processo de desenvolvimento, quando a aplicação
+estiver radando mesmo o processo é diferente:
+    - agora é precisso alterar o arquivo package.json novamente na parte de scripts:
+        "scripts": {
+            "start": "nodemon src/server.js"
+        }
