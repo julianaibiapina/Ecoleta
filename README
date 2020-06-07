@@ -40,3 +40,20 @@ estiver radando mesmo o processo é diferente:
     depois disso é ir no server.js e usar o template engine
 
 2. Instalar plugin para dar cores bonitinhas no nunjucks dentro do VSCode >.<
+     1. Baixar nunjucks template, o primeiro
+     2. Apertar crtl + shift + P e pesquisar por "Preferences: Open Settings (JSON)
+     3. Acrescentar:
+        "files.associations": {
+            "*.html": "njk"
+        },
+        "emmet.includeLanguages": {
+            "njk": "html"
+        }
+
+
+
+
+
+PAREI AQUI 
+     REINICIAR SERVIDOR (npm start)
+     e acessar com : http://localhost:3000/
